@@ -4,7 +4,7 @@ import { Dump } from './dump'
 
 export const Fonts = () => {
   const [fonts, setFonts] = useState(null)
-  const KEY = process.env.FONTS_API_KEY
+  const KEY = process.env.GATSBY_FONTS_API_KEY
   console.log('=====================')
   console.log(KEY)
   console.log('=====================')
@@ -19,7 +19,7 @@ export const Fonts = () => {
   return (
     <>
       <Dump props={fonts} />
-      {fonts}
+      {/* {fonts} */}
     </>
   )
 }
