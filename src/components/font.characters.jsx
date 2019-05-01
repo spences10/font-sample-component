@@ -1,9 +1,8 @@
-import React from "react"
-import styled from "@emotion/styled"
-import { CharacterTitle } from "./font.title"
+import styled from '@emotion/styled'
+import React from 'react'
+import { CharacterTitle } from './font.title'
 
-const Characters =
-  "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890¿ ? ¡ ! & @ ‘ ’ “ ” « » % * ^ # $ £ € ¢ / ( ) [ ] { } . , ® ©"
+const Characters = `ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890¿ ? ¡ ! & @ ‘ ’ “ ” « » % * ^ # $ £ € ¢ / ( ) [ ] { } . , ® ©`
 
 const CharacterWrapper = styled.div`
   font-size: 27px;
