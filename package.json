@@ -8,7 +8,7 @@
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
-    "dev": "gatsby develop",
+    "dev": "gatsby develop -p 3344",
     "format": "pretty-quick",
     "start": "npm run dev",
     "serve": "gatsby serve"
