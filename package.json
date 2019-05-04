@@ -1,14 +1,29 @@
 {
   "name": "font-sample-component",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "A basic font sample to display fonts I like.",
   "version": "0.1.1",
   "author": "Scott Spence <spences10apps@gmail.com>",
+  "keywords": [],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "dev": "gatsby develop -p 3344",
+    "format": "pretty-quick",
+    "start": "npm run dev",
+    "serve": "gatsby serve"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  },
   "dependencies": {
     "@emotion/core": "10.0.10",
     "@emotion/styled": "10.0.10",
     "@mdx-js/mdx": "1.0.15",
     "@mdx-js/react": "1.0.15",
+    "axios": "^0.18.0",
     "gatsby": "2.3.34",
     "gatsby-image": "2.0.41",
     "gatsby-mdx": "0.6.3",
@@ -25,17 +40,9 @@
     "react-helmet": "5.2.1"
   },
   "devDependencies": {
-    "prettier": "1.17.0"
-  },
-  "keywords": [],
-  "license": "MIT",
-  "scripts": {
-    "build": "gatsby build",
-    "develop": "gatsby develop",
-    "format": "prettier --write src/**/*.{js,jsx}",
-    "start": "npm run develop",
-    "serve": "gatsby serve",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
+    "husky": "^2.1.0",
+    "prettier": "1.17.0",
+    "pretty-quick": "^1.10.0"
   },
   "repository": {
     "type": "git",
