@@ -38,5 +38,5 @@ export const useFontsData = () => {
       }
     `
   )
-  return fontsDataFonts
+  return fontsDataFonts.items
 }
