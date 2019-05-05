@@ -13,7 +13,7 @@ exports.sourceNodes = async ({ actions }) => {
 
   const fetchFontData = () =>
     axios.get(
-      `https://www.googleapis.com/webfonts/v1/webfonts?key=${KEY}&sort=popularity`
+      `https://www.googleapis.com/webfonts/v1/webfonts?key=${KEY}&sort=alpha`
     )
 
   const res = await fetchFontData()
