@@ -21,8 +21,12 @@ export const Test = props => {
   return (
     <>
       <Select>
-        {items.map(item => {
-          return <SelectOpt>{item.family}</SelectOpt>
+        {items.map((item, index) => {
+          return (
+            <SelectOpt placeholder="Select font..." key={index}>
+              {item.family}
+            </SelectOpt>
+          )
         })}
       </Select>
     </>
