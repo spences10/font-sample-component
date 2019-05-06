@@ -1,5 +1,5 @@
-import React from 'react';
-import { useFontsData } from '../hooks/fontsData';
+import React from 'react'
+import { useFontsData } from '../hooks/fontsData'
 
 export const Test = ({ fontFamily }) => {
   const items = useFontsData()
