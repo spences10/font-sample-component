@@ -1,7 +1,7 @@
-import styled from '@emotion/styled';
-import React from 'react';
-import { FontCharacters } from './font.characters';
-import { FontGlyph } from './font.glyph';
+import styled from '@emotion/styled'
+import React from 'react'
+import { FontCharacters } from './font.characters'
+import { FontGlyph } from './font.glyph'
 
 const ComponentWrapper = styled.div`
   grid-gap: 30px;
@@ -22,7 +22,7 @@ const CharactersWrapper = styled.div`
 export const FontComponent = ({ family, title }) => (
   <ComponentWrapper family={family}>
     <GlyphWrapper>
-      <FontGlyph>Aa</FontGlyph>
+      <FontGlyph>Ag</FontGlyph>
     </GlyphWrapper>
     <CharactersWrapper>
       <FontCharacters fontWeight={'700'} title={title} />
