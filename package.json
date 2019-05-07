@@ -27,6 +27,7 @@
     "gatsby": "2.3.34",
     "gatsby-image": "2.0.41",
     "gatsby-mdx": "0.6.3",
+    "gatsby-node-helpers": "^0.3.0",
     "gatsby-plugin-emotion": "4.0.6",
     "gatsby-plugin-manifest": "2.1.1",
     "gatsby-plugin-offline": "2.1.0",
@@ -34,10 +35,13 @@
     "gatsby-plugin-sharp": "2.0.36",
     "gatsby-source-filesystem": "2.0.33",
     "gatsby-transformer-sharp": "2.1.19",
+    "match-sorter": "^3.0.0",
     "prop-types": "15.7.2",
     "react": "16.8.6",
     "react-dom": "16.8.6",
-    "react-helmet": "5.2.1"
+    "react-helmet": "5.2.1",
+    "react-window": "^1.8.1",
+    "use-select": "^0.0.1"
   },
   "devDependencies": {
     "husky": "2.2.0",
