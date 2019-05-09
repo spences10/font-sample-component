@@ -19,20 +19,19 @@
     }
   },
   "dependencies": {
-    "@emotion/core": "10.0.10",
-    "@emotion/styled": "10.0.10",
     "@mdx-js/mdx": "1.0.15",
     "@mdx-js/react": "1.0.15",
     "axios": "0.18.0",
+    "babel-plugin-styled-components": "^1.10.0",
     "gatsby": "2.3.34",
     "gatsby-image": "2.0.41",
     "gatsby-mdx": "0.6.3",
     "gatsby-node-helpers": "^0.3.0",
-    "gatsby-plugin-emotion": "4.0.6",
     "gatsby-plugin-manifest": "2.1.1",
     "gatsby-plugin-offline": "2.1.0",
     "gatsby-plugin-react-helmet": "3.0.12",
     "gatsby-plugin-sharp": "2.0.36",
+    "gatsby-plugin-styled-components": "^3.0.7",
     "gatsby-source-filesystem": "2.0.33",
     "gatsby-transformer-sharp": "2.1.19",
     "match-sorter": "^3.0.0",
@@ -41,6 +40,7 @@
     "react-dom": "16.8.6",
     "react-helmet": "5.2.1",
     "react-window": "^1.8.1",
+    "styled-components": "^4.2.0",
     "use-select": "^0.0.1"
   },
   "devDependencies": {

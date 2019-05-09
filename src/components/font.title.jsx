@@ -1,4 +1,4 @@
-import styled from '@emotion/styled'
+import styled from 'styled-components'
 
 export const CharacterTitle = styled.p`
   font-size: ${props => props.size || '27px'};
