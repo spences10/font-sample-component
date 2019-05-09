@@ -1,7 +1,7 @@
-import styled from '@emotion/styled'
 import matchSorter from 'match-sorter'
 import React, { useRef } from 'react'
 import { FixedSizeList } from 'react-window'
+import styled from 'styled-components'
 import useSelect from 'use-select'
 
 const OptionsWrapper = styled.div`
