@@ -2,7 +2,7 @@
   "name": "font-sample-component",
   "private": true,
   "description": "A basic font sample to display fonts I like.",
-  "version": "0.1.83",
+  "version": "0.1.93",
   "author": "Scott Spence <spences10apps@gmail.com>",
   "keywords": [],
   "license": "MIT",
@@ -22,8 +22,8 @@
     "@mdx-js/mdx": "1.0.21",
     "@mdx-js/react": "1.0.21",
     "axios": "0.19.0",
-    "babel-plugin-styled-components": "1.10.2",
-    "gatsby": "2.10.4",
+    "babel-plugin-styled-components": "1.10.4",
+    "gatsby": "2.11.3",
     "gatsby-image": "2.2.3",
     "gatsby-mdx": "0.6.3",
     "gatsby-node-helpers": "0.3.0",
@@ -32,7 +32,7 @@
     "gatsby-plugin-react-helmet": "3.1.0",
     "gatsby-plugin-sharp": "2.2.1",
     "gatsby-plugin-styled-components": "3.1.0",
-    "gatsby-source-filesystem": "2.1.0",
+    "gatsby-source-filesystem": "2.1.1",
     "gatsby-transformer-sharp": "2.2.0",
     "match-sorter": "3.1.1",
     "prop-types": "15.7.2",
@@ -41,10 +41,10 @@
     "react-helmet": "5.2.1",
     "react-window": "1.8.3",
     "styled-components": "4.3.2",
-    "use-select": "0.0.1"
+    "use-select": "0.0.3"
   },
   "devDependencies": {
-    "husky": "2.5.0",
+    "husky": "2.7.0",
     "prettier": "1.18.2",
     "pretty-quick": "1.11.1"
   },
