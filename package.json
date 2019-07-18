@@ -40,6 +40,7 @@
     "react-dom": "16.8.6",
     "react-helmet": "5.2.1",
     "react-window": "1.8.5",
+    "regenerator-runtime": "0.13.2",
     "styled-components": "4.3.2",
     "use-select": "0.0.3"
   },
