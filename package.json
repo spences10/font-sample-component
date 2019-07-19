@@ -2,7 +2,7 @@
   "name": "font-sample-component",
   "private": true,
   "description": "A basic font sample to display fonts I like.",
-  "version": "0.1.109",
+  "version": "0.1.110",
   "author": "Scott Spence <spences10apps@gmail.com>",
   "keywords": [],
   "license": "MIT",
@@ -40,7 +40,7 @@
     "react-dom": "16.8.6",
     "react-helmet": "5.2.1",
     "react-window": "1.8.5",
-    "regenerator-runtime": "0.13.2",
+    "regenerator-runtime": "0.13.3",
     "styled-components": "4.3.2",
     "use-select": "0.0.3"
   },
