@@ -2,7 +2,7 @@
   "name": "font-sample-component",
   "private": true,
   "description": "A basic font sample to display fonts I like.",
-  "version": "0.1.258",
+  "version": "0.1.259",
   "author": "Scott Spence <spences10apps@gmail.com>",
   "keywords": [],
   "license": "MIT",
@@ -45,7 +45,7 @@
     "use-select": "0.0.4"
   },
   "devDependencies": {
-    "husky": "4.2.1",
+    "husky": "4.2.2",
     "prettier": "1.19.1",
     "pretty-quick": "2.0.1"
   },
