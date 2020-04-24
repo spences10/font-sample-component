@@ -2,7 +2,7 @@
   "name": "font-sample-component",
   "private": true,
   "description": "A basic font sample to display fonts I like.",
-  "version": "0.1.292",
+  "version": "0.1.293",
   "author": "Scott Spence <spences10apps@gmail.com>",
   "keywords": [],
   "license": "MIT",
@@ -19,8 +19,8 @@
     }
   },
   "dependencies": {
-    "@mdx-js/mdx": "1.5.8",
-    "@mdx-js/react": "1.5.8",
+    "@mdx-js/mdx": "1.5.9",
+    "@mdx-js/react": "1.5.9",
     "axios": "0.19.2",
     "babel-plugin-styled-components": "1.10.7",
     "gatsby": "2.20.27",
